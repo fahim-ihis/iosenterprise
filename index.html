@@ -9,7 +9,12 @@
       background: url(bkg.png) repeat #c5ccd4;
       font-family: Helvetica, arial, sans-serif;
     }
-    .congrats {
+    .header {
+      font-size: 16pt;
+      padding: 6px;
+      text-align: center;
+    }
+    .description {
       font-size: 16pt;
       padding: 6px;
       text-align: center;
@@ -30,11 +35,33 @@
     table {
       width: 100%;
     }
+    .site-footer__footnote {
+        padding-top: 15px;
+        font-size: 0.92857em;
+    }
+    .site-footer__footnote li.has-divider:after {
+        position: relative;
+        top: -2px;
+        content: '';
+        display: inline-block;
+        width: 5px;
+        height: 5px;
+        background: #bbbbbd;
+        border-radius: 50%;
+    }
+    p {
+        display: block;
+        -webkit-margin-before: 1em;
+        -webkit-margin-after: 1em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+    }
   </style>
 </head>
 <body>
 
-<div class="congrats">Congrats! You've been invited to the beta of Geoloqi.</div>
+<div class="header">HOLA</div>
+<div class="description">This is a test download page to install the iOS enterprise application developed by IHiS</div>
 
 <div class="step">
   <table><tr>
@@ -46,6 +73,25 @@
       </a>
     </td>
   </tr></table>
+</div>
+<div class="site-footer__footnote">
+    <p class="copyright">
+        Copyright ©2018 Integrated Health Information Systems (IHIS) Pte Ltd. <span>All Rights Reserved.</span>
+    </p>
+
+    <ul>
+        <li><span>Co Reg No.200814464H</span></li>
+        <li class="has-divider">
+            <a id="ctl00_TermConditionsLink" href="/Terms_Of_Use/">
+                Terms &amp; Conditions
+            </a>
+        </li>
+        <li>
+            <a id="ctl00_PrivacyPolicyLink" href="/Privacy_Policy/">
+                Privacy Policy
+            </a>
+        </li>
+    </ul>
 </div>
 
 </body>
