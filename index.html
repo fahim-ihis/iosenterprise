@@ -1,98 +1,151 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /> 
-  <title>Install Geoloqi</title>
-  <style type="text/css">
-    body {
-      background: url(bkg.png) repeat #c5ccd4;
-      font-family: Helvetica, arial, sans-serif;
-    }
-    .header {
-      font-size: 16pt;
-      padding: 6px;
-      text-align: center;
-    }
-    .description {
-      font-size: 16pt;
-      padding: 6px;
-      text-align: center;
-    }
-    .step {
-      background: white;
-      border: 1px #ccc solid;
-      border-radius: 14px;
-      padding: 4px 10px;
-      margin: 10px 0;
-    }
-    .instructions {
-      font-size: 10pt;
-    }
-    .arrow {
-      font-size: 15pt;
-    }
-    table {
-      width: 100%;
-    }
-    .site-footer__footnote {
-        padding-top: 15px;
-        font-size: 0.92857em;
-    }
-    .site-footer__footnote li.has-divider:after {
-        position: relative;
-        top: -2px;
-        content: '';
-        display: inline-block;
-        width: 5px;
-        height: 5px;
-        background: #bbbbbd;
-        border-radius: 50%;
-    }
-    p {
-        display: block;
-        -webkit-margin-before: 1em;
-        -webkit-margin-after: 1em;
-        -webkit-margin-start: 0px;
-        -webkit-margin-end: 0px;
-    }
-  </style>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link href="fontawesome-free-5.2.0-web/css/all.css" rel="stylesheet">
+    <!--load all styles -->
+    <link href="fonts/fonts.css" rel="stylesheet">
+    <title>Install Sample App</title>
+    <style type="text/css">
+        body {
+            background: url(bkg.png) repeat #fff;
+            font-family: Helvetica, arial, sans-serif, Roboto-Bold;
+            align-content: center;
+            max-width: 600px;
+            margin: auto;
+            padding-top: 3%;
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-bottom: 3%;
+        }
+
+        .header {
+            font-size: 16pt;
+            padding-left: 20px;
+            padding-top: 16px;
+            text-align: left;
+            font-family: Roboto-Regular;
+            color: #444;
+        }
+
+        .sub-header {
+            font-size: 12pt;
+            text-align: left;
+            font-family: Roboto-Regular;
+            color: #444;
+        }
+
+        .description {
+            font-size: 9pt;
+            padding: 6px;
+            margin-top: 10px;
+            text-align: left;
+            display: inline-block;
+            font-family: Roboto-Regular;
+        }
+
+        .step {
+            background: #eee;
+            border: 1px darkgray solid;
+            border-radius: 14px;
+            padding: 4px 10px;
+            margin: 10px 0;
+        }
+
+        .instructions {
+            font-size: 12pt;
+            color: gray;
+        }
+
+        .arrow {
+            font-size: 15pt;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        .site-footer__footnote {
+            padding-top: 15px;
+            font-size: 0.92857em;
+        }
+
+        .site-footer__footnote li.has-divider:after {
+            position: relative;
+            top: -2px;
+            content: '';
+            display: inline-block;
+            width: 5px;
+            height: 5px;
+            background: #bbbbbd;
+            border-radius: 50%;
+        }
+
+        p {
+            display: block;
+            -webkit-margin-before: 1em;
+            -webkit-margin-after: 1em;
+            -webkit-margin-start: 0px;
+            -webkit-margin-end: 0px;
+        }
+
+        .main-logo {
+            float: left;
+            max-width: 110px;
+        }
+
+        img {
+            width: 100%;
+            display: block;
+        }
+
+        .copyright {
+            font-size: 7pt;
+        }
+        a, u {
+            text-decoration: none;
+        }
+    </style>
 </head>
+
 <body>
 
-<div class="header">HOLA</div>
-<div class="description">This is a test download page to install the iOS enterprise application developed by IHiS</div>
+    <div class="main-logo">
+        <img id="ctl00_SiteLogoImage1" name="onetidHeadbnnr0" src="images/icon-appicon.png" alt="iOS enterprise">
+    </div>
+    <div class="header">Application Name</div>
+    <div class="sub-header">Sample enterprise app</div>
+    <div class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+        it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem
+        Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
+        Ipsum.
+        <br/>
+    </div>
 
-<div class="step">
-  <table><tr>
-    <td class="instructions">Install the<br />Geoloqi app</td>
-    <td width="24" class="arrow">&rarr;</td>
-    <td width="57" class="imagelink">
-      <a href="itms-services://?action=download-manifest&url=http://loqi.me/app/Geoloqi.plist">
-        <img src="geoloqi-icon.png" height="57" width="57" />
-      </a>
-    </td>
-  </tr></table>
-</div>
-<div class="site-footer__footnote">
-    <p class="copyright">
-        Copyright ©2018 Integrated Health Information Systems (IHIS) Pte Ltd. <span>All Rights Reserved.</span>
-    </p>
-
-    <ul>
-        <li><span>Co Reg No.200814464H</span></li>
-        <li class="has-divider">
-            <a id="ctl00_TermConditionsLink" href="/Terms_Of_Use/">
-                Terms &amp; Conditions
-            </a>
-        </li>
-        <li>
-            <a id="ctl00_PrivacyPolicyLink" href="/Privacy_Policy/">
-                Privacy Policy
-            </a>
-        </li>
-    </ul>
-</div>
+    <div class="step">
+        <a href="itms-services://?action=download-manifest&url=http://loqi.me/app/Geoloqi.plist">
+            <table>
+                <tr>
+                    <td class="instructions">Install the sample app</td>
+                    <td width="24" class="arrow">&rarr;</td>
+                    <td width="57" class="imagelink">
+                        <img src="images/icon-download.png" height="57" width="57" />
+                    </td>
+                </tr>
+            </table>
+        </a>
+    </div>
+    <div class="site-footer__footnote">
+        <p class="copyright">
+            Copyright ©2018 Integrated Health Information Systems (IHIS) Pte Ltd. All Rights Reserved.
+        </p>
+    </div>
 
 </body>
+
 </html>
