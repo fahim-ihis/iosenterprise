@@ -50,14 +50,40 @@
         .step {
             background: #eee;
             border: 1px darkgray solid;
-            border-radius: 14px;
+            border-radius: 5px;
             padding: 4px 10px;
             margin: 10px 0;
         }
 
-        .instructions {
+        .version-header {
             font-size: 12pt;
-            color: gray;
+            color: #333;
+            font-family: Roboto-Bold;
+        }
+
+        .version-value {
+            font-size: 12pt;
+            color: #333;
+            font-family: Roboto-Bold;
+        }
+
+        .otherinfo-header {
+            font-size: 10pt;
+            color: #333;
+            font-family: Roboto-Regular;
+        }
+
+        .otherinfo-value {
+            font-size: 10pt;
+            color: #333;
+            font-family: Roboto-Regular;
+        }
+
+        .download-button {
+            width: 100%;
+            height: 35px;
+            font-size: 14pt;
+            margin-top: 20px;
         }
 
         .arrow {
@@ -104,8 +130,11 @@
 
         .copyright {
             font-size: 7pt;
+            font-family: Roboto-Regular;
         }
-        a, u {
+
+        a,
+        u {
             text-decoration: none;
         }
     </style>
@@ -131,10 +160,20 @@
         <a href="itms-services://?action=download-manifest&url=http://loqi.me/app/Geoloqi.plist">
             <table>
                 <tr>
-                    <td class="instructions">Install the sample app</td>
-                    <td width="24" class="arrow">&rarr;</td>
-                    <td width="57" class="imagelink">
-                        <img src="images/icon-download.png" height="57" width="57" />
+                    <td class="version-header">Latest Version:</td>
+                    <td class="version-value">3.1</td>
+                </tr>
+                <tr>
+                    <td class="otherinfo-header">Compatibility:</td>
+                    <td class="otherinfo-value">iOS 10.0</td>
+                </tr>
+                <tr>
+                    <td class="otherinfo-header">Updated:</td>
+                    <td class="otherinfo-value">20 Aug 2017</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button type="button" class="download-button">Install on your iOS device</button>
                     </td>
                 </tr>
             </table>
