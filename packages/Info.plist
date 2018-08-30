@@ -5,7 +5,7 @@
 	<key>ApplicationProperties</key>
 	<dict>
 		<key>ApplicationPath</key>
-		<string>Applications/SampleApp.app</string>
+		<string>https://github.com/fahim-ihis/iosenterprise/tree/master/packages/Products/Applications/SampleApp.app</string>
 		<key>CFBundleIdentifier</key>
 		<string>sg.com.ihis.SampleApp</string>
 		<key>CFBundleShortVersionString</key>
