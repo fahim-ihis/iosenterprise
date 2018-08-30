@@ -16,16 +16,12 @@
             align-content: center;
             max-width: 600px;
             margin: auto;
-            padding-top: 3%;
-            padding-left: 5%;
-            padding-right: 5%;
-            padding-bottom: 3%;
+            padding: 3% 5% 3% 5%;
         }
 
         .header {
             font-size: 16pt;
-            padding-left: 20px;
-            padding-top: 16px;
+            padding: 16px 20px 0px 0px;
             text-align: left;
             font-family: Roboto-Regular;
             color: #444;
@@ -51,26 +47,26 @@
             background: #eee;
             border: 1px darkgray solid;
             border-radius: 5px;
-            padding: 4px 10px;
+            padding: 8px 8px;
             margin: 10px 0;
         }
 
         .version-header {
-            font-size: 12pt;
+            font-size: 10pt;
             color: #333;
-            font-family: Roboto-Bold;
+            font-family: Roboto-Medium;
         }
 
         .version-value {
-            font-size: 12pt;
+            font-size: 10pt;
             color: #333;
-            font-family: Roboto-Bold;
+            font-family: Roboto-Regular;
         }
 
         .otherinfo-header {
             font-size: 10pt;
             color: #333;
-            font-family: Roboto-Regular;
+            font-family: Roboto-Medium;
         }
 
         .otherinfo-value {
@@ -157,27 +153,26 @@
     </div>
 
     <div class="step">
-        <a href="itms-services://?action=download-manifest&url=http://loqi.me/app/Geoloqi.plist">
-            <table>
-                <tr>
-                    <td class="version-header">Latest Version:</td>
-                    <td class="version-value">3.1</td>
-                </tr>
-                <tr>
-                    <td class="otherinfo-header">Compatibility:</td>
-                    <td class="otherinfo-value">iOS 10.0</td>
-                </tr>
-                <tr>
-                    <td class="otherinfo-header">Updated:</td>
-                    <td class="otherinfo-value">20 Aug 2017</td>
-                </tr>
-                <tr>
-                    <td colspan="2">
-                        <button type="button" class="download-button">Install on your iOS device</button>
-                    </td>
-                </tr>
-            </table>
-        </a>
+        <table>
+            <tr>
+                <td class="version-header">Latest Version:</td>
+                <td class="version-value">1.0</td>
+            </tr>
+            <tr>
+                <td class="otherinfo-header">Compatibility:</td>
+                <td class="otherinfo-value">iOS 10.0 and above</td>
+            </tr>
+            <tr>
+                <td class="otherinfo-header">Updated:</td>
+                <td class="otherinfo-value">20 Aug 2017</td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="button" class="download-button" onclick="itms-services://?action=download-manifest&url=http://loqi.me/app/Geoloqi.plist">Install
+                        on your iOS device</button>
+                </td>
+            </tr>
+        </table>
     </div>
     <div class="site-footer__footnote">
         <p class="copyright">
